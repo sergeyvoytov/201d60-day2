@@ -2,7 +2,7 @@
 //Find out the name of the user and greeting
 
 var userName = prompt('Hello! What is your name?');
-alert('Good to meet you ' + userName +'! ' +'Please answer few questions about Sergey to learn more about him in Yes/No format.')
+alert('Good to meet you ' + userName + '! ' + 'Please answer few questions about Sergey to learn more about him in Yes/No format.')
 
 //First question about dogs with uppercase function
 var dogs = prompt('Does Sergey like dogs?').toUpperCase();
@@ -65,4 +65,4 @@ if (classicalMusic === 'YES') {
     console.log('You are correct! Sergey doesn\'t like classical music');
     alert('You are correct! Sergey doesn\'t like classical music');
 }
-alert(userName +' , thank you for using my site and learning about me!');
+alert(userName + ' , thank you for using my site and learning about me!');

@@ -1,0 +1,19 @@
+
+
+body {
+    background-color: #d7cec7;
+}
+header{
+    margin: 0;
+    background: #565656;
+    color: green;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
