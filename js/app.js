@@ -1,10 +1,11 @@
 'use strict';
-//Find out the name of the user and greeting
-//hhh
+//Find out the name of the user and greetingm
+//dsfd
 var userName = prompt('Hello! What is your name?');
 alert('Good to meet you ' + userName + '! ' + 'Please answer few questions about Sergey to learn more about him in Yes/No format.');
 
 //First question about dogs with uppercase function
+function questionOne(){
 var dogs = prompt('Does Sergey like dogs?').toUpperCase();
 console.log('likes dogs:', dogs);
 
@@ -15,7 +16,7 @@ if (dogs === 'YES') {
   //console.log('You are incorrect. Sergey likes dogs');
   alert('You are incorrect. Sergey likes dogs');
 }
-
+}
 //Second question about piano with uppercase function
 var playsPiano = prompt('Does Sergey play piano?').toUpperCase();
 console.log('plays piano:', playsPiano);
