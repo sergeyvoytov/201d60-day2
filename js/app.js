@@ -1,6 +1,6 @@
 'use strict';
 //Find out the name of the user and greeting
-
+//hhh
 var userName = prompt('Hello! What is your name?');
 alert('Good to meet you ' + userName + '! ' + 'Please answer few questions about Sergey to learn more about him in Yes/No format.');
 
